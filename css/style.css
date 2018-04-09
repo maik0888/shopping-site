@@ -3,20 +3,29 @@
 body{
     background-color:#f9f8f6;   
 }
-
+header{
+    margin-top:10px;
+    margin-bottom:10px;
+}
 .gazou {
-    padding: 10px;
+    padding:20px;
+    text-align:right;
+    margin-left:20px;
+}
+.u-max-full-width{
+    margin-left:10px;
 }
 .name {
     font-size: small;
     font-weight: bold;
     text-align:left;
 }
-.box{
-    float:left;
-    background-color:#ffffff;
-    margin: 10px;
+.box {
+    float: left;
+    background-color: #ffffff;
+    margin: 1px;
     flex: 1;
+    padding: 5px;
 }
 @media (max-width: 768px) {
   .container {
@@ -33,7 +42,8 @@ width: 50%;
     background-image:url("../images/top/next_icon.png");
     background-repeat: no-repeat;
     background-position: 95% center;
-    text-align:center;
+    text-align:left;
+    padding-left:10px;
 }
 .morechairo{
     max-width: 50%;
@@ -44,6 +54,7 @@ width: 50%;
     padding:12px;
     font-weight: bold;
     margin: auto;
+    text-align:left;
 }
 .otodoke{
     color:#887f69;
@@ -68,29 +79,35 @@ width: 50%;
 }
 .example1{
     text-align:center;
+    padding-top:10px;
 }
 .name1{
     font-size: small;
     font-weight: bold;
     margin-top:70px;
     text-align:center;
+    padding-left:20px;
 }
 .copyright{
     font-size:x-small;
     color:#b8b4ac;
     text-align:center;
-}
-.search{
-    position:relative;
-    padding-right:20px;
+    margin-bottom:10px;
 }
 .megane{
     position: absolute;
-    top: 11px;
-    right: 10px;
+    top: 42px;
+    left: 180px;
 }
-.search input[type="search"] {
+#searchInput {
+    padding: 7px;
     width: 100%;
+    font-size: 1.1rem;
+    background-color: #eeeeee;
+    background-image: url(./images/top/search_icon.png);
+    background-position: 95% center;
+    background-repeat: no-repeat;
+    font-style: italic;
 }
 .foot{
     text-align:center;
@@ -166,11 +183,8 @@ img{
 .gazou{
     padding:7px;
 }
-.aside{
-    background-color:#ffffff;
-}
 .move{
-    padding-left:5px;
+    padding:5px;
 }
 .sikaku{
     display: block;
@@ -289,4 +303,24 @@ input[type="radio"] {
     border-bottom:solid;
     border-bottom-width:1px;
     border-bottom-color:#f9f9f9;
+}
+.gazou{
+       padding:10px;
+}
+.pay {
+    background-color: #fff;
+    padding: 10px;
+}
+.kessai{
+   background-color: #fff;
+   padding: 10px;
+}
+.aaa{
+    background-color:#fff;
+    margin-bottom:5px;
+}
+.wh_bg_box{
+    background-color:#ffffff;
+    padding: 15px;
+    margin-bottom: 10px;
 }
